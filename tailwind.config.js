@@ -3,6 +3,11 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {},
+    fontFamily: {
+      robotic: ['Roboto Mono'],
+      Bebas: ['Bebas Neue'],
+      League: ['League Spartan'],
+    },
   },
   plugins: [],
 };
